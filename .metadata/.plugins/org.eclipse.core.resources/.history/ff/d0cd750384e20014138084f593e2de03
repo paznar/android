@@ -1,0 +1,31 @@
+package com.manager;
+
+import java.util.List;
+
+import com.dao.CocheDao;
+import com.dao.ICocheDao;
+import com.modelo.Coche;
+
+public class CocheManager implements ICocheManager
+{
+	private ICocheDao cocheDao = new CocheDao();
+	
+	@Override
+	public Coche insertar(Coche coche) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Coche> listarTodos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Coche mostrar(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

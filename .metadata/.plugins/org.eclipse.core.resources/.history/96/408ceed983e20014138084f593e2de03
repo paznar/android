@@ -1,0 +1,6 @@
+package com.manager;
+
+public class CocheManager implements ICocheManager
+{
+
+}

@@ -1,0 +1,29 @@
+package com.delegate;
+
+import java.util.List;
+
+import com.modelo.Coche;
+
+public class CocheDelegate implements ICocheDelegate
+{
+	private ICocheManager = new CocheManager();
+
+	@Override
+	public Coche insertar(Coche coche) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Coche> listarTodos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Coche mostrar(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
