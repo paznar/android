@@ -19,7 +19,7 @@ public class Funcional {
 		 
 		double resultado=lista.stream()
 		.mapToDouble(gasto->gasto.getValor()*1.21) //la variable gasto representa el contenido de la coleccion, en este caso partimos de un objeto Gasto y lo convertimos en uno Double 
-		//.filter(gasto->gasto<100) //Aqui la variable gasto, es de tipo double.
+		.filter(gasto->gasto<100) //Aqui la variable gasto, es de tipo double.
 		.sum();
 		
 		System.out.println(resultado); 

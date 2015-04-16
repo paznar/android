@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.dao.ICocheDao"/>
+<fullyQualifiedTypeName name="com.dao.CocheDao"/>
+<fullyQualifiedTypeName name="com.manager.ICocheManager"/>
+<fullyQualifiedTypeName name="com.manager.CocheManager"/>
+<fullyQualifiedTypeName name="java.sql.Array"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

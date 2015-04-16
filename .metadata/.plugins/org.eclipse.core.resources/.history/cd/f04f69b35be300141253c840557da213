@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Ejercicio {
+
+	public static void main(String[] args) 
+	{
+		List<String> strings = new ArrayList();
+		
+		strings.add("a1");
+		strings.add("a2");
+		strings.add("b1");
+		strings.add("b2");
+		strings.add("c1");
+		strings.add("c2");
+
+		strings.stream()
+			.filter(s -> s.startsWith("c"))
+			.map(s -> s.toUpperCase())
+			.forEach(s -> System.out.println(s));
+
+	}
+
+}
